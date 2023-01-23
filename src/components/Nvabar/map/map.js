@@ -1,0 +1,25 @@
+export const NavbarMap=[
+    {
+        name:'HOME',
+        path:'/'
+    },
+    {
+        name:'SHOP',
+        path:'/magazin'
+    },
+    {
+        name:'BLOG',
+        path:'/blog'
+    },
+    {
+        name:'FAQ',
+        path:'/faq'
+    },
+    {
+        name:'CONTACT',
+        path:'/contact'
+    },
+    {
+        name:'MEMBERS',
+    },
+]
