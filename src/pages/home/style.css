@@ -1,0 +1,16 @@
+/* .rasam{
+    
+} */
+
+#rang{
+    position: relative;
+    /* margin: 45px 0; */
+    padding: 50vh 0;
+    text-align: center;
+    background-image:  url(../../assents/imgs/bosh.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
