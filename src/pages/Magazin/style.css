@@ -1,0 +1,69 @@
+.container {
+    position: relative;
+    width: 50%;
+  }
+  .container img{
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(185, 152, 103, 0.75);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    height: 25%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+ .oOOCOE {
+    background-color: #5F7081;
+    border-color: #5F7081;
+    border-width: 0px;
+    border-radius: 0px;
+}
+.FbHYze {
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.INg0tB {
+    font: normal normal normal 14px/1.4em "open sans",sans-serif;
+    color: #FFFFFF;
+    left: 0;
+    direction: ltr;
+}
+
+.oOOCOE {
+    padding: 2px 12px;
+    border-style: solid;
+}
+.FbHYze {
+    position: absolute;
+    top: 0;
+}
+.narx{
+    color: #A6A6A6;
+}

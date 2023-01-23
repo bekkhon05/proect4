@@ -1,14 +1,22 @@
-// import Blog from "./pages/blog";
-// import Home from "./pages/home";
-// import Kontakt from "./pages/kontakt";
 
-// function App() {
-//   return (
-//     <>
-//       {/* <Home /> */}
-//       {/* <Blog/> */}
-//       {/* <Kontakt/> */}
-//     </> 
-//   );
-// }
-// export default App;
+import React from "react";
+import "./style.css"
+import './App.css'
+import { BrowserRouter, Routes, Route, Navigate, Link } from "react-router-dom";
+import Magazin from "./pages/Magazin";
+import Router from "./router";
+
+function App() {
+
+  return (
+    <>
+      <div>
+        <BrowserRouter>
+          <Router />
+        </BrowserRouter>
+      </div>
+    </>
+  );
+}
+
+export default App;
