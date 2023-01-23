@@ -1,0 +1,12 @@
+.ac {
+    box-shadow: none !important;
+    border-bottom: 2px solid #B99867 !important;
+
+}
+
+.acname {
+    color: rgb(41, 64, 87) !important;
+    font-size: 25px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
