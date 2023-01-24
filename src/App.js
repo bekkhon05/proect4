@@ -1,21 +1,21 @@
-
-import React from "react";
-import "./style.css"
 import './App.css'
-import { BrowserRouter, Routes, Route, Navigate, Link } from "react-router-dom";
-import Magazin from "./pages/Magazin";
-import Router from "./router";
+import Navbar from './components/Nvabar/Navbar';
+import Futter from './components/Futter/Futter';
+import { BrowserRouter } from 'react-router-dom';
+import Router from './router';
+import { Box } from '@mui/material';
 
 function App() {
-
   return (
-    <>
-      <div>
-        <BrowserRouter>
-          <Router />
-        </BrowserRouter>
-      </div>
-    </>
+    <div>
+      <BrowserRouter>
+        <Box sx={{position:"fixed",width:'100%',background:'#fff'}}>
+          <Navbar />
+        </Box>
+        <Router />
+        <Futter />
+      </BrowserRouter>
+    </div>
   );
 }
 

@@ -4,7 +4,6 @@ import "./style.css"
 import rasm from "../../assents/imgs/1.jpg"
 import rasm1 from "../../assents/imgs/2.jpg"
 import rasm2 from "../../assents/imgs/3.jpg"
-import rasm3 from "../../assents/imgs/bosh.jpg"
 import rasm4 from "../../assents/imgs/45.png"
 import rasm5 from "../../assents/imgs/46.png"
 function Home() {
@@ -56,13 +55,13 @@ function Home() {
                     </Box>
                 </Box>
                 <Box>
-                    <Grid container spacing={2}>
+                    <Grid container spacing={0}>
                         <Grid item xlg={6} md={6} sm={6} xs={12}>
-                            <Box sx={{ width: "49%", height: "100%", }}>
-                                <Typography sx={{ width: "50%", position: "absolute", background: "white", height: "620px", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                    <Box >
+                            <Box sx={{ width: "100%", height: "100%", }}>
+                                <Box sx={{ width: "100%",  background: "white", height: "620px", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                                    <Typography >
                                         <Typography style={{ fontSize: "40px", color: '#B99867', }}>О НАС</Typography>
-                                        <Typography sx={{ width: "350px", mt: "30px", color: "grey" }}>
+                                        <Typography sx={{ width: "340px", mt: "30px", color: "grey" }}>
                                             Это раздел «О нас». Самое место рассказать вашу историю и объяснить, чем вы занимаетесь. Если вы владелец бизнеса, напишите, как все начиналось, как вам пришла в голову та самая идея и к чему это привело. Людям будет интересно увидеть в вас реальную личность, поэтому не бойтесь делиться настоящими случаями из жизни. Расскажите о ваших ценностях и чем вы отличаетесь от конкурентов.
                                         </Typography>
 
@@ -72,12 +71,12 @@ function Home() {
                                             </Typography>
                                         </Box>
 
-                                    </Box>
-                                </Typography>
+                                    </Typography>
+                                </Box>
                             </Box>
                         </Grid>
                         <Grid item lg={6} md={6} sm={6} xs={12} sx={{ width: "100%" }}>
-                            <Box sx={{ width: "49%", height: "620px", position: "absolute" }}>
+                            <Box sx={{ width: "100%", height: "620px",  }}>
                                 <img src={rasm5} style={{ width: "100%", height: "100%", }} alt="" />
                             </Box>
                         </Grid>
@@ -85,17 +84,15 @@ function Home() {
                     </Grid>
 
 
-                </Box>
-                <Box sx={{ mt: "620px" }}>
-                    <Grid container spacing={2}>
+                    <Grid container spacing={0}>
                         <Grid item lg={6} md={6} sm={6} xs={12} sx={{ width: "100%" }}>
-                            <Box sx={{ width: "50%", height: "620px", position: "absolute" }}>
+                            <Box sx={{ width: "100%", height: "620px", }}>
                                 <img src={rasm4} style={{ width: "100%", height: "100%", }} alt="" />
                             </Box>
                         </Grid>
                         <Grid item lg={6} md={6} sm={6} xs={12}>
-                            <Box sx={{ width: "49%", height: "100%", }}>
-                                <Typography sx={{ width: "50%", position: "absolute", background: "white", minHeight: "620px", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                            <Box sx={{ width: "100%", height: "100%", }}>
+                                <Typography sx={{ width: "100%", background: "white", minHeight: "620px", display: "flex", justifyContent: "center", alignItems: "center" }}>
                                     <Box >
                                         <Typography style={{ fontSize: "40px", color: '#B99867', width: "200px" }}>
                                             СВОБОДА

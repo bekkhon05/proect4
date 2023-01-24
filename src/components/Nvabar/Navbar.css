@@ -1,0 +1,117 @@
+#AppBar .css-19r6kue-MuiContainer-root {
+    padding: 0 !important;
+}
+
+
+#AppBar .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background: #fff !important;
+    box-shadow: none !important;
+}
+#AppBar .css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    background: #fff !important;
+    box-shadow: none !important;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding: 0 !important;
+}
+
+
+#menu-appbar .css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    box-shadow: none !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    left: 0 !important;
+    border-radius: 0 !important;
+    min-height: 100vh !important;
+    max-height: 100vh !important;
+    background-color: transparent !important;
+    right: 0 !important;
+    margin: 0 !important;
+    top: 0 !important;
+    overflow-y: none !important;
+    overflow-x: none !important;
+}
+#weregtdcf7g {
+    font-size: 23px;
+    color: #fff;
+    text-align: center;
+    width: calc(80% - 52px);
+}
+
+#qwesdrtfyctfy {
+    width: 100%;
+    height: calc(100% - 110px);
+    background: #fff;
+    padding: 34px;
+}
+#fsadgfhg{
+    padding: 10px 0 !important;
+}
+#dfgbhhhhh{
+    text-decoration: none;
+    color: #294057;
+    font-size: 14px;
+    padding: 0 25px;
+    font-family: "open sans",sans-serif !important;
+    cursor: pointer;
+}
+#dfgbhhhhh:hover{
+    color: #B99869;
+}
+#dfgbhhhhh:focus{
+    color: #B99869;
+}
+#sadfgh .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+    padding: 0 !important;
+}
+#sadtfyu{
+    text-decoration: none;
+    color: #294057;
+    font-size: 14px;
+    padding: 0 5px;
+    font-family: "open sans",sans-serif !important;
+    cursor: pointer;
+}
+#ddarsg:hover #sadtfyu{
+    color: #999;
+}
+#menu-appba .css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    box-shadow: none !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    left: 0 !important;
+    border-radius: 0 !important;
+    min-height: 100vh !important;
+    max-height: 100vh !important;
+    right: 0 !important;
+    margin: 0 !important;
+    top: 0 !important;
+}
+#dfgbhhhhh2{
+    text-decoration: none;
+    color: #294057;
+    font-size: 14px;
+    padding: 6px 25px;
+    font-family: "open sans",sans-serif !important;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+#dfgbhhhhh2:hover{
+    color: #B99869;
+}
+#dfgbhhhhh2:focus{
+    color: #B99869;
+}
+@media screen and (max-width:1260px) {
+    #dfgbhhhhh{
+        padding: 0 22px;
+    }
+}
+@media screen and (max-width:1100px) {
+    #dfgbhhhhh{
+        padding: 0 15px;
+    }
+}

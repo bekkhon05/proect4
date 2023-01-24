@@ -11,7 +11,7 @@ function Kontakt() {
             fontSize: "45px",
             color: "#B99867",
             textAlign: "center",
-            mt: "150px"
+            
           }}>
             ЖДЕМ В ГОСТИ
           </Typography>

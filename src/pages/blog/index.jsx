@@ -7,7 +7,7 @@ import { Blogmap } from '../../assents/blogmap';
 function Blog() {
     return (
         <Box sx={{ display: "flex", justifyContent: "center" }}>
-            <Box sx={{ p: "150px 0 80px 0" }}>
+            <Box sx={{ p: "80px 0 80px 0" }}>
                 <Box>
                     <Typography sx={{
                         fontSize: "45px",
